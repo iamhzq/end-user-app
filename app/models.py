@@ -4,7 +4,7 @@ import datetime as DateTime
 import time as Time
 
 class User(Base):
-    registration_user = "users"
+    registration_user = ""
 
     id = Column(Integer, primary_key=True, index=True)
     email = Column(String, unique=True, index=True, nullable=True)
